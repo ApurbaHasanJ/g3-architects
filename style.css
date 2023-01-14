@@ -1,0 +1,256 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Open+Sans&family=Poppins:wght@500&family=Roboto&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Primary Button */
+.primary-btn{
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 13px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.primary-btn:hover{
+    background-color: #fa6604;
+}
+
+
+/* header section */
+header{
+    width: 100%;
+    background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 85px ;
+}
+
+/* nav bar section */
+.company-name{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.nav-bar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-items li{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Banner section */
+.banner-section{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-info{
+    text-align: center;
+    margin: 0 auto;
+    width: 862px;
+    height: 225px;
+    margin-bottom: 32px;
+}
+
+.banner-header{
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner-btn{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    width: 80%;
+    margin-bottom:45px ;
+}
+
+/* Our Future Section */
+.our-future-section{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 73px;
+    margin-bottom: 130px;
+
+
+}
+
+.our-future-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.our-future-img img{
+    width: 342px;
+    transition: width 0s, height 0s;
+}
+
+/* .our-future-img img:hover{
+    width: 390px;
+    
+} */
+
+.our-future-header{
+    margin-bottom: 24px;
+}
+
+.our-future-header .dark-2{
+    color:#727272 ;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.our-future-header .dark-1{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+
+.our-future-header .orange-color{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.our-future-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* Experience Section */
+
+
+
+
+
+/* Some Facts Section */
+.some-facts{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
+
+
+.some-facts-header{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.some-facts-description{
+    color: #727272;
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* margin-bottom: 100px; */
+}
+
+.our-acquirements{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+    align-items: center;
+
+}
+
+.our-acquire{
+    text-align: center;
+    width: 241px;
+    height: 241px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+    transition: width 2s, height 2s, transform .80s;
+}
+
+.our-acquire:hover{
+    /* transform: rotate(90deg); */
+    background-color: #f9f8f8;
+    width: 280px;
+    height: 280px;
+    transform: rotate(360deg);
+    border: 4px solid #fa6604;
+
+}
+
+.our-acquire img{
+    width: 36.5px;
+    margin-bottom: 9.5px;
+}
+
+.our-acquire h2{
+    color:#424242 ;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.our-acquire p{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
