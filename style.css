@@ -1,4 +1,6 @@
-/* Google Fonts */
+/*----------------
+    Google Fonts 
+ -----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Norican&family=Open+Sans&family=Poppins:wght@500&family=Roboto&family=Work+Sans&display=swap');
 
 *{
@@ -10,7 +12,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Primary Button */
+/*-------------------
+     Primary Button
+--------------------- */
 .primary-btn{
     color: #FFFFFF;
     background: #FF900E;
@@ -28,7 +32,9 @@
 }
 
 
-/* header section */
+/*--------------------
+     header section 
+----------------------*/
 header{
     width: 100%;
     background: rgba(255, 144, 14, 0.1);
@@ -36,12 +42,13 @@ header{
     box-shadow: 3px 5px 10px 1px #42424275;
 }
 
-/* nav bar section */
+/*----------------------
+     nav bar section
+------------------------ */
 .company-name{
     color: #131313;
     font-weight: 700;
     font-size: 45px;
-
 }
 
 .nav-bar{
@@ -68,7 +75,9 @@ header{
     text-align: center;
 }
 
-/* Banner section */
+/*--------------------
+     Banner section
+---------------------- */
 .banner-section{
     display: flex;
     margin: 0 auto;
@@ -81,7 +90,6 @@ header{
     text-align: center;
     margin: 0 auto;
     width: 862px;
-    /* height: 225px; */
     margin-bottom: 32px;
 }
 
@@ -115,7 +123,9 @@ header{
     margin-bottom:45px ;
 }
 
-/* Our Future Section */
+/*-----------------------
+     Our Future Section 
+-------------------------*/
 .our-future-section{
     width: 80%;
     display: flex;
@@ -123,8 +133,6 @@ header{
     align-items: center;
     gap: 73px;
     margin-bottom: 130px;
-
-
 }
 
 .our-future-img{
@@ -137,13 +145,7 @@ header{
     width: 342px;
     border-radius: 8px;
     box-shadow: 5px 5px 10px 1px #7b7979;
-    /* transition: width 0s, height 0s; */
 }
-
-/* .our-future-img img:hover{
-    width: 390px;
-    
-} */
 
 .our-future-header{
     margin-bottom: 24px;
@@ -176,7 +178,9 @@ header{
     margin-bottom: 32px;
 }
 
-/* Experience Section */
+/*-----------------------
+     Experience Section
+------------------------- */
 .experience-section{
     display: flex;
     gap: 54px;
@@ -219,7 +223,9 @@ header{
     margin-bottom: 30px;
 }
 
-/* Experience Sub Info */
+/*-----------------------
+    Experience Sub Info
+-------------------------*/
 .sub-info-boxes{
     display: flex;
     flex-direction: column;
@@ -247,11 +253,13 @@ header{
     line-height: 26px;
 }
 
-/* experience image section */
+/*-----------------------------
+     experience image section
+------------------------------- */
 .experience-img{
     width: 800px;
     height: 1059px;
-    border: 1px solid;
+    position: relative;
    
     
 }
@@ -262,7 +270,6 @@ header{
     object-fit: none;
     float: right;
     position: relative;
-    /* bottom: 0; */
     border-radius: 8px;
 }
 
@@ -270,6 +277,8 @@ header{
     font-size: 65px;
     font-weight: 700;
     position: absolute;
+    left: 0;
+    bottom: 0;
     padding: 42px;
     color: #FFFFFF;
     background: #FF900E;
@@ -288,7 +297,9 @@ header{
 }
 
 
-/* Some Facts Section */
+/*-------------------------
+     Some Facts Section 
+---------------------------*/
 .some-facts{
     width: 90%;
     margin: 0 auto;
@@ -337,13 +348,11 @@ header{
 }
 
 .our-acquire:hover{
-    /* transform: rotate(90deg); */
     background-color: #f9f8f8;
     width: 280px;
     height: 280px;
     transform: rotate(360deg);
     border: 4px solid #fa6604;
-
 }
 
 .our-acquire img{
@@ -364,7 +373,9 @@ header{
 }
 
 
-/* Specification Section */
+/*--------------------------
+    Specification Section
+----------------------------*/
 .specifications-section{
     width: 90%;
     margin: 0 auto;
@@ -424,12 +435,9 @@ header{
 }
 
 
-
-
-
-
-
-/* Our Sponsor Section */
+/*-------------------------
+    Our Sponsor Section
+---------------------------*/
 .sponsor-section{
     width: 90%;
     margin: 0 auto;
@@ -466,7 +474,9 @@ header{
 }
 
 
-/* Footer Section */
+/*-----------------------
+    Footer Section
+------------------------- */
 footer{
     margin-top:100px ;
     margin-bottom: 50px;
@@ -488,21 +498,25 @@ footer{
 
 
 
-
-
-
-
 /* ------------------
     Media Queries
 --------------------- */
+
+/* -----------------------
+    For Small Devices
+-------------------------- */
 @media only screen and (max-width:576px) {
 
-    /* Primary Button */
+    /*-------------------
+         Primary Button 
+    ---------------------*/
     .primary-btn{
         font-size: 13px;
     }
 
-    /* Header Nav */
+    /*--------------------
+         Header Nav
+    ---------------------- */
     .nav-bar{
         width: 93%;
         flex-direction: column;
@@ -520,7 +534,9 @@ footer{
         font-size: 10px;
     }
 
-    /* Banner Section */
+    /*---------------------
+        Banner Section
+    ----------------------- */
     .banner-info{
         width: 100%;
     }
@@ -539,7 +555,9 @@ footer{
         margin-bottom: 20px ;
     }
 
-    /* Our Future section */
+    /*------------------------
+        Our Future section
+    --------------------------*/
     .our-future-section{
         flex-direction: column;
         gap: 30px;
@@ -570,7 +588,9 @@ footer{
         
     }
 
-    /* Experience Section */
+    /*-----------------------
+        Experience Section
+    ------------------------- */
     .experience-section{
         flex-direction: column;
     }
@@ -580,7 +600,6 @@ footer{
     }
 
     .experience-img{
-        /* position: initial; */
         width: 100%;
         text-align: center;
     }
@@ -588,7 +607,6 @@ footer{
     .experience-img img{
         margin-bottom: 30px;
         width: 100%;
-        /* position: inherit; */
     }
 
     .experience-btn{
@@ -597,7 +615,9 @@ footer{
         position: inherit;
     }
 
-    /* Some Facts Section */
+    /*-------------------------
+        Some Facts Section
+    --------------------------- */
     .some-facts{
         width: 85%;
     }
@@ -612,16 +632,12 @@ footer{
     
     .our-acquirements{
         width: 80%;
-        /* margin: 0 auto; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* gap: 20px; */
         grid-column-gap: 30px;
         grid-row-gap: 30px;
         justify-items: center;
-        align-content: center;
-        
-        
+        align-content: center;    
     }
 
     .our-acquire{
@@ -634,8 +650,6 @@ footer{
     }
     .our-acquire h2{
         font-size: 30px;
-        /* width: 10%; */
-        /* width: 100%; */
     }
 
     .our-acquire p{
@@ -643,7 +657,6 @@ footer{
     }
 
     .our-acquire:hover{
-        /* transform: rotate(90deg); */
         background-color: #f9f8f8;
         width: 150px;
         height: 150px;
@@ -652,7 +665,9 @@ footer{
     
     }
 
-    /* Specification Section */
+    /*-------------------------
+        Specification Section
+    ---------------------------*/
     .specifications-section{
         width: 80%;
     }
@@ -678,7 +693,9 @@ footer{
         font-size: 18px;
     }
 
-    /* Our Sponsor Section */
+    /*------------------------
+        Our Sponsor Section
+    -------------------------- */
     .sponsor-section{
         width: 100%;
         margin-bottom: 80px;
@@ -695,7 +712,6 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        /* flex-direction: column; */
     }
 
     .sponsors img{
@@ -708,7 +724,9 @@ footer{
         font-size: 30px;
     }
 
-    /* Footer */
+    /*-------------------------
+                Footer
+    ----------------------------*/
     footer{
         width: 90%;
         margin: 0 auto;
@@ -720,9 +738,10 @@ footer{
         text-align: center;
 
     }
-
-
-
 }
+
+/* -----------------
+        Finally
+-------------------- */
 
 
