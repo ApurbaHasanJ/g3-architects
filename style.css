@@ -24,6 +24,7 @@
 
 .primary-btn:hover{
     background-color: #fa6604;
+    box-shadow: 10px 10px 10px 1px #42424275;
 }
 
 
@@ -32,6 +33,7 @@ header{
     width: 100%;
     background: rgba(255, 144, 14, 0.1);
     margin-bottom: 85px ;
+    box-shadow: 3px 5px 10px 1px #42424275;
 }
 
 /* nav bar section */
@@ -79,7 +81,7 @@ header{
     text-align: center;
     margin: 0 auto;
     width: 862px;
-    height: 225px;
+    /* height: 225px; */
     margin-bottom: 32px;
 }
 
@@ -133,7 +135,9 @@ header{
 
 .our-future-img img{
     width: 342px;
-    transition: width 0s, height 0s;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 1px #7b7979;
+    /* transition: width 0s, height 0s; */
 }
 
 /* .our-future-img img:hover{
@@ -173,9 +177,117 @@ header{
 }
 
 /* Experience Section */
+.experience-section{
+    display: flex;
+    gap: 54px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 
+.experience-info{
+    width: 586px;
+}
 
+.experience-header-box{
+    display: flex;
+    gap: 21px;
+}
 
+.experience-header-design{
+    background-color: #FF900E;
+    width: 5px;
+    height: 106px;
+
+}
+
+.experience-header{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.experience-header-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+/* Experience Sub Info */
+.sub-info-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-info-box{
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px 1px #42424253;
+}
+
+.experience-sub-header{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.experience-sub-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* experience image section */
+.experience-img{
+    width: 800px;
+    height: 1059px;
+    border: 1px solid;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: absolute; */
+   
+    
+}
+
+.experience-img img{
+    width: 708px;
+    height: 982px;
+    object-fit: none;
+    float: right;
+    position: relative;
+    /* bottom: 0; */
+    border-radius: 8px;
+}
+
+.experience-btn{
+    font-size: 65px;
+    font-weight: 700;
+    position: absolute;
+    padding: 42px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.experience-btn:hover{
+    background-color: #fa6604;
+    box-shadow: 10px 10px 10px 1px #42424275;
+}
+
+.experience-btn .experience{
+    font-weight: 500;
+    font-size: 25px;
+}
 
 
 /* Some Facts Section */
@@ -199,7 +311,6 @@ header{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* margin-bottom: 100px; */
 }
 
 .our-acquirements{
@@ -251,6 +362,143 @@ header{
     color: #727272;
     font-weight: 600;
     font-size: 20px;
+}
+
+
+/* Our Sponsor Section */
+.sponsor-section{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-sponsor-info{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.our-sponsor-header{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.our-sponsor-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sponsors{
+    display: flex;
+    gap: 130px;
+}
+
+.sponsors img{
+    filter: grayscale(100%);
+}
+
+
+/* Footer Section */
+footer{
+    margin-top:100px ;
+    margin-bottom: 50px;
+}
+.copyright{
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    color: #424242;
+    background: #FFF4E7;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+/* ------------------
+    Media Queries
+--------------------- */
+@media only screen and (max-width:682px) {
+
+    /* Primary Button */
+    .primary-btn{
+        font-size: 13px;
+    }
+
+    /* Header Nav */
+    .nav-bar{
+        width: 93%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 30px;
+        margin-bottom: 60px;
+    }
+    .company-name{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .nav-items{
+        gap: 20px;
+        font-size: 10px;
+    }
+
+    /* Banner Section */
+    .banner-info{
+        width: 100%;
+    }
+
+
+    .banner-header{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .banner-info{
+        margin-bottom: 20px ;
+    }
+
+    /* Our Future section */
+    .our-future-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .our-future-header .dark-1,
+    .our-future-header .dark-2,
+    .our-future-header .orange-color {
+        font-size: 33px;
+    }
+
+    .our-future-description{
+        line-height:20px ;
+        margin-bottom: 24px;
+    }
+
+    .our-future-img{
+        gap: 5%;
+    }
+
+
+    .our-future-img img{
+        width: 150px;
+        
+    }
+
+    
 }
 
 
